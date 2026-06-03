@@ -393,10 +393,14 @@
     .contact-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 60px;
+      gap: 40px;
       align-items: start;
     }
-    .contact-text { font-size: 16px; color: var(--muted); line-height: 1.8; margin-bottom: 32px; }
+    .contact-right {
+      position: sticky;
+      top: 100px;
+    }
+    .contact-text { font-size: 15px; color: var(--muted); line-height: 1.7; margin-bottom: 20px; }
     .contact-links { display: flex; flex-direction: column; gap: 14px; }
     .contact-link {
       display: flex; align-items: center; gap: 16px;
@@ -815,8 +819,7 @@
         </a>
       </div>
     </div>
-    <div>
-      <div class="match-box">
+    <div class="contact-right">
         <p class="match-title">Research Alignment Areas</p>
         <div class="match-item"><span>Robust Machine Learning</span><div class="match-dot"></div></div>
         <div class="match-item"><span>Federated Learning</span><div class="match-dot"></div></div>

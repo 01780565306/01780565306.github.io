@@ -68,9 +68,11 @@
 
     /* ── HERO ── */
     .hero {
-      min-height: 100vh;
+      height: 100vh;
+      max-height: 860px;
+      min-height: 600px;
       display: flex; align-items: center;
-      padding: 120px 60px 60px;
+      padding: 80px 60px 60px;
       position: relative;
       overflow: hidden;
     }
@@ -472,7 +474,7 @@
       nav { padding: 16px 24px; }
       .nav-links { gap: 20px; }
       section { padding: 60px 24px; }
-      .hero { padding: 100px 24px 60px; }
+      .hero { padding: 80px 24px 50px; max-height: none; }
       .hero-badge { display: none; }
       .contact-grid { grid-template-columns: 1fr; }
       footer { flex-direction: column; gap: 8px; text-align: center; }

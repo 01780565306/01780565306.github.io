@@ -390,9 +390,9 @@ footer strong { color: #f5a623; }
   <h1>Kayes Bin<br><span class="yellow">Yousuf</span></h1>
   <p class="hero-sub">Research Engineer · <strong>IUT EEE</strong> · ML Researcher<br>Assistant Engineer, PRAN Agro Limited · Bangladesh</p>
   <div class="hero-stats">
-    <div class="stat-item"><span class="stat-num">3+</span><span class="stat-label">Research Papers</span></div>
+    <div class="stat-item"><span class="stat-num">4</span><span class="stat-label">Research Papers</span></div>
     <div class="stat-item"><span class="stat-num">7+</span><span class="stat-label">Industrial Projects</span></div>
-    <div class="stat-item"><span class="stat-num">28K+</span><span class="stat-label">Technical Audience</span></div>
+    <div class="stat-item"><span class="stat-num">29K+</span><span class="stat-label">Technical Audience</span></div>
     <div class="stat-item"><span class="stat-num">2+</span><span class="stat-label">Years Zero Breakdown</span></div>
   </div>
   <div class="hero-cta">
@@ -407,10 +407,10 @@ footer strong { color: #f5a623; }
   <h2 class="section-title">Who I <em>Am</em></h2>
   <div class="about-grid">
     <div class="about-text">
-      <p>I am a <strong>Research Engineer</strong> and <strong>ML Researcher</strong> from Islamic University of Technology (IUT), specializing in Robust Machine Learning, Trustworthy AI, and Renewable Energy Analytics.</p>
-      <p>As an Assistant Engineer at PRAN Agro Limited, I have independently deployed 7+ industrial automation projects — from PLC-HMI fire alarm systems to Industry 4.0 OEE monitoring — with 2+ years of zero breakdown performance.</p>
-      <p>On the research side, I have 3+ publications in ML for energy systems, industrial AI, and calibration-aware fault detection, and serve as a peer reviewer for Elsevier's <em>Computers & Electrical Engineering</em>.</p>
-      <p>I also run a technical YouTube channel with <strong>28,000+ subscribers</strong>, creating engineering education content in Bengali.</p>
+      <p>I am a <strong>Research Engineer</strong> and <strong>ML Researcher</strong> from Islamic University of Technology (IUT), specializing in physics-informed neural architectures, solar energy forecasting, motor control AI, and electricity market analytics — bridging theoretical ML with industrial constraints.</p>
+      <p>As an Assistant Engineer at <strong>PRAN-RFL Group</strong>, I independently deployed 7+ Industry 4.0 automation projects — from PLC-HMI fire alarm systems to web-integrated OEE monitoring — achieving <strong>2+ years of zero breakdown</strong> performance.</p>
+      <p>On the research side, I have <strong>4 papers</strong> (1 published in Elsevier, 3 ongoing) in solar forecasting, PMSM torque estimation, PV fault detection, and European energy markets. I serve as a peer reviewer for Elsevier's <em>Computers & Electrical Engineering</em> (IF 4.9).</p>
+      <p>I founded <strong>Electrical Engineering Solution</strong> — a YouTube channel with <strong>29,000+ subscribers</strong> and 1,000+ paid subscribers, covering 80% of the EEE syllabus for major Bangladeshi universities.</p>
     </div>
     <div class="about-vision">
       <p>
@@ -457,44 +457,70 @@ footer strong { color: #f5a623; }
     <div class="pub-card fade-in">
       <div class="pub-num">01</div>
       <div>
-        <p class="pub-venue">Elsevier · Published</p>
-        <h3 class="pub-title">Physics-Informed Residual Learning for Sensorless Torque Estimation in PMSM Drives</h3>
-        <p class="pub-abstract">A hybrid physics-informed deep learning framework for real-time sensorless torque estimation in PMSM drives. Combines domain knowledge with residual neural networks, maintaining high accuracy under dynamic load conditions.</p>
+        <p class="pub-venue">Energy Reports · Elsevier · <strong style="color:#16a34a;">Published 2025</strong> · IF 5.1</p>
+        <h3 class="pub-title">A Hybrid XGBoost-LSTM Model with Physics-Informed Features for Solar Power Forecasting</h3>
+        <p class="pub-abstract">Physics-informed framework coupling XGBoost (feature learning) with LSTM (residual correction). Achieved <strong>93.4% prediction accuracy</strong> (2.57 kWh RMSE) on the UNISOLAR dataset, with a 72.1% improvement over persistence baselines. Integrated conformal prediction for calibrated uncertainty (93% coverage at 95% confidence).</p>
         <div class="pub-tags">
           <span class="ptag">Physics-Informed AI</span>
-          <span class="ptag">Motor Drives</span>
-          <span class="ptag gold">Industrial Deployment</span>
+          <span class="ptag">XGBoost + LSTM</span>
+          <span class="ptag gold">Solar Forecasting</span>
+          <span class="ptag">Conformal Prediction</span>
+        </div>
+        <div style="display:flex;gap:0.6rem;margin-top:1rem;flex-wrap:wrap;">
+          <a href="https://doi.org/10.1016/j.egyr.2026.109068" target="_blank" style="display:inline-flex;align-items:center;gap:0.4rem;background:#1a237e;color:#fff;padding:0.45rem 1.1rem;border-radius:0.4rem;font-size:0.78rem;font-weight:700;text-decoration:none;letter-spacing:0.05em;" onmouseover="this.style.background='#f5a623';this.style.color='#1a237e'" onmouseout="this.style.background='#1a237e';this.style.color='#fff'">📄 View Research Paper</a>
+          <a href="#" target="_blank" style="display:inline-flex;align-items:center;gap:0.4rem;background:rgba(26,35,126,0.08);color:#1a237e;border:1.5px solid rgba(26,35,126,0.25);padding:0.45rem 1.1rem;border-radius:0.4rem;font-size:0.78rem;font-weight:700;text-decoration:none;letter-spacing:0.05em;" onmouseover="this.style.background='#f5a623';this.style.color='#1a237e';this.style.borderColor='#f5a623'" onmouseout="this.style.background='rgba(26,35,126,0.08)';this.style.color='#1a237e';this.style.borderColor='rgba(26,35,126,0.25)'">⚙ View Code</a>
         </div>
       </div>
     </div>
     <div class="pub-card fade-in">
       <div class="pub-num">02</div>
       <div>
-        <p class="pub-venue">Applied Energy (Target) · Under Review</p>
-        <h3 class="pub-title">Renewable Energy Penetration and Electricity Market Dynamics in Germany and Spain</h3>
-        <p class="pub-abstract">Econometric and ML analysis of renewable energy integration on electricity market pricing. 87,000+ hourly observations, XGBoost, SHAP-based interpretability, and calibrated uncertainty quantification.</p>
+        <p class="pub-venue">IEEE Access · <strong style="color:#b45309;">Under Review</strong></p>
+        <h3 class="pub-title">Physics-Informed Residual Learning for Sensorless Torque Estimation in PMSMs (PIRL-Net)</h3>
+        <p class="pub-abstract">Introduces <strong>PIRL-Net</strong>, a residual learning framework that estimates torque from standard ADC measurements — no oscilloscope required. Achieved <strong>4.06% RMS error at 120 rpm</strong> and <strong>3.73% RMS in zero-shot transfer to 2000 rpm</strong>, surpassing online RLS baselines by 5 percentage points. First architecture to simultaneously satisfy online inference, full speed range operation, and cross-speed generalization for automotive-grade PMSMs.</p>
         <div class="pub-tags">
-          <span class="ptag">Renewable Energy</span>
-          <span class="ptag">XGBoost + SHAP</span>
-          <span class="ptag gold">87K+ Observations</span>
-          <span class="ptag">Uncertainty Quantification</span>
+          <span class="ptag">Physics-Informed AI</span>
+          <span class="ptag">Residual Learning</span>
+          <span class="ptag gold">PMSM · Motor Control</span>
+          <span class="ptag">Zero-Shot Transfer</span>
         </div>
       </div>
     </div>
     <div class="pub-card fade-in">
       <div class="pub-num">03</div>
       <div>
-        <p class="pub-venue">Ongoing Research</p>
-        <h3 class="pub-title">Calibration-Aware Solar PV Fault Detection using Trustworthy Machine Learning</h3>
-        <p class="pub-abstract">A calibration-aware fault detection framework employing temperature scaling, conformal prediction, and ensemble uncertainty estimation for safety-critical solar PV operation.</p>
+        <p class="pub-venue">Applied Energy · <strong style="color:#b45309;">Working Paper</strong></p>
+        <h3 class="pub-title">PV-Clean4: A Contamination-Free Benchmark for Solar PV Fault Detection</h3>
+        <p class="pub-abstract">Audited the widely-used DS1 benchmark, identifying <strong>25.5% duplicate images</strong> and 1,248 cross-split contaminations. Introduced <strong>PV-Clean4</strong> (10,129 clean images). A DenseNet-CBAM-DH model achieved <strong>96.76% accuracy</strong> and reduced Expected Calibration Error by 62.9% via temperature scaling. Supervised domain adaptation improved target-domain accuracy from 67% to 82%.</p>
         <div class="pub-tags">
-          <span class="ptag">Trustworthy AI</span>
-          <span class="ptag">Calibration</span>
-          <span class="ptag gold">Solar PV</span>
-          <span class="ptag">Conformal Prediction</span>
+          <span class="ptag">Benchmark Integrity</span>
+          <span class="ptag">DenseNet-CBAM</span>
+          <span class="ptag gold">Solar PV · Fault Detection</span>
+          <span class="ptag">Domain Adaptation</span>
         </div>
       </div>
     </div>
+    <div class="pub-card fade-in">
+      <div class="pub-num">04</div>
+      <div>
+        <p class="pub-venue">Energy Economics · <strong style="color:#b45309;">Working Paper</strong></p>
+        <h3 class="pub-title">Renewable Energy Penetration and Flexibility Stress in European Electricity Markets</h3>
+        <p class="pub-abstract">Five-year (2021–2025) econometric and ML analysis of Germany and Spain using <strong>87,000+ hourly ENTSO-E observations</strong>. Quantifies the merit-order effect (€127–411/MWh per RE unit), duck curve evolution (13.9 GW/h ramp in DE by 2025), and cross-border arbitrage potential (~€1,090M). Ridge regression achieved <strong>R²≈0.93</strong> with conformal prediction providing sharp uncertainty intervals.</p>
+        <div class="pub-tags">
+          <span class="ptag">Econometric Modeling</span>
+          <span class="ptag">Ridge Regression</span>
+          <span class="ptag gold">87K+ Observations</span>
+          <span class="ptag">Conformal Prediction</span>
+          <span class="ptag">Duck Curve · Merit-Order</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESEARCH PHILOSOPHY -->
+  <div style="margin-top:3rem;background:#162563;border-left:4px solid #f5a623;border-radius:0 8px 8px 0;padding:2rem 2.5rem;">
+    <p style="font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;color:#f5a623;font-weight:700;margin-bottom:0.75rem;">Research Philosophy</p>
+    <p style="font-size:1rem;color:rgba(255,255,255,0.88);line-height:1.85;font-style:italic;font-weight:300;">"My work operates at the intersection of physical fidelity and data-driven pragmatism. Whether estimating torque in a saturated PMSM or forecasting solar yield under cloud cover, the goal is the same: embed domain physics into learning architectures to achieve generalization that pure black-box models cannot. The future of industrial AI lies not in larger models, but in <strong style="color:#f5a623;font-style:normal;">smarter residuals and contamination-free validation</strong>."</p>
   </div>
 </section>
 
@@ -509,14 +535,18 @@ footer strong { color: #f5a623; }
         <span class="skill-pill">PyTorch</span><span class="skill-pill">TensorFlow</span>
         <span class="skill-pill">Scikit-Learn</span><span class="skill-pill">XGBoost</span>
         <span class="skill-pill">LightGBM</span><span class="skill-pill">SHAP</span>
+        <span class="skill-pill">PINNs</span><span class="skill-pill">Residual Learning</span>
+        <span class="skill-pill">Conformal Prediction</span><span class="skill-pill">ECE / PICP</span>
       </div>
     </div>
     <div class="skill-group fade-in">
-      <p class="skill-group-title">Data Science</p>
+      <p class="skill-group-title">Research & Analytics</p>
       <div class="skill-pills">
         <span class="skill-pill">Pandas</span><span class="skill-pill">NumPy</span>
         <span class="skill-pill">Statsmodels</span><span class="skill-pill">Matplotlib</span>
-        <span class="skill-pill">SciPy</span>
+        <span class="skill-pill">SciPy</span><span class="skill-pill">SQL</span>
+        <span class="skill-pill">Newey-West</span><span class="skill-pill">Domain Adaptation</span>
+        <span class="skill-pill">Uncertainty Quantification</span>
       </div>
     </div>
     <div class="skill-group fade-in">
@@ -532,7 +562,7 @@ footer strong { color: #f5a623; }
       <div class="skill-pills">
         <span class="skill-pill">PLC Programming</span><span class="skill-pill">HMI Design</span>
         <span class="skill-pill">SCADA</span><span class="skill-pill">VFD Control</span>
-        <span class="skill-pill">Siemens S7-200</span>
+        <span class="skill-pill">Siemens S7-200</span><span class="skill-pill">Edge AI</span>
       </div>
     </div>
   </div>
@@ -545,7 +575,10 @@ footer strong { color: #f5a623; }
         <p class="t-date">2023 — PRESENT</p>
         <p class="t-role">Independent Researcher</p>
         <p class="t-org">Renewable Energy AI · Trustworthy ML · Biometric Security</p>
-        <p class="t-desc">Publishing research across three domains targeting high-impact journals. Reviewer for Computers & Electrical Engineering (Elsevier).</p>
+        <p class="t-desc">Publishing research across three domains targeting high-impact journals. Reviewer for <em>Computers & Electrical Engineering</em> (Elsevier, IF 4.9) — 2 reviews completed (March–May 2026).</p>
+        <div style="margin-top:0.75rem;">
+          <img src="https://raw.githubusercontent.com/01780565306/01780565306.github.io/main/Elsevier%20Reviewer%20Certificate_kayes%20Bin%20Yousuf.jpg" alt="Elsevier Reviewer Certificate" style="max-width:340px;width:100%;border-radius:0.5rem;border:1px solid #e2e8f4;box-shadow:0 2px 12px rgba(26,35,126,0.10);">
+        </div>
       </div>
       <div class="t-item fade-in">
         <p class="t-date">2022 — 2023</p>
@@ -561,9 +594,12 @@ footer strong { color: #f5a623; }
       </div>
       <div class="t-item fade-in">
         <p class="t-date">2020 — PRESENT</p>
-        <p class="t-role">Technical Educator</p>
-        <p class="t-org">YouTube · 28,000+ Subscribers</p>
-        <p class="t-desc">Educational content on EEE, programming, and ML for Bengali-speaking engineering students. Demonstrates strong technical communication skills.</p>
+        <p class="t-role">Founder & Technical Educator</p>
+        <p class="t-org">Electrical Engineering Solution · YouTube · 29,000+ Subscribers</p>
+        <p class="t-desc">100% organic growth. Serves <strong>1,000+ paid subscribers</strong> with curriculum-aligned content covering 80% of the EEE syllabus for major Bangladeshi universities. Strong technical communication bridging research and industry.</p>
+        <div style="margin-top:0.6rem;">
+          <a href="https://www.youtube.com/@ElectricalEngineeringSolution" target="_blank" style="display:inline-flex;align-items:center;gap:0.4rem;background:#ff0000;color:#fff;padding:0.4rem 1rem;border-radius:0.4rem;font-size:0.76rem;font-weight:700;text-decoration:none;letter-spacing:0.05em;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">▶ View Channel</a>
+        </div>
       </div>
     </div>
   </div>
@@ -912,9 +948,9 @@ footer strong { color: #f5a623; }
   <p style="margin-bottom:0.25rem;">Research Engineer · IUT EEE · ML Researcher</p>
   <p style="margin-bottom:1.2rem; color:rgba(255,255,255,0.5);">Assistant Engineer, PRAN Agro Limited · Rajshahi, Bangladesh</p>
   <div style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="mailto:kayes@example.com" style="color:#f5a623;text-decoration:none;font-size:0.9rem;">✉ kayes@example.com</a>
-    <a href="https://linkedin.com/in/kayesbinyousuf" target="_blank" style="color:#f5a623;text-decoration:none;font-size:0.9rem;">💼 LinkedIn</a>
-    <a href="https://scholar.google.com" target="_blank" style="color:#f5a623;text-decoration:none;font-size:0.9rem;">🎓 Google Scholar</a>
+    <a href="mailto:kayesbin.yousuf01@gmail.com" style="color:#f5a623;text-decoration:none;font-size:0.9rem;">✉ kayesbin.yousuf01@gmail.com</a>
+    <a href="https://www.linkedin.com/in/kayes-bin-yousuf/" target="_blank" style="color:#f5a623;text-decoration:none;font-size:0.9rem;">💼 LinkedIn</a>
+    <a href="https://scholar.google.com/citations?user=G5_B9QsAAAAJ&hl=en" target="_blank" style="color:#f5a623;text-decoration:none;font-size:0.9rem;">🎓 Google Scholar</a>
     <a href="https://github.com/kayesbinyousuf" target="_blank" style="color:#f5a623;text-decoration:none;font-size:0.9rem;">⚙ GitHub</a>
   </div>
   <p style="color:rgba(255,255,255,0.35); font-size:0.8rem;">© 2025 Kayes Bin Yousuf · Research & Industrial Portfolio</p>
